@@ -1,0 +1,85 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url("english medium.jpg");
+	display: flex;
+	flex-direction: column;
+}
+.navigation{
+	box-shadow: 5px 5px 10px;
+	background-color: lightgrey;
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+}
+.navigation ul{
+	display: flex;
+	position: absolute;
+	right: 0px;
+	flex-direction: row;
+}
+.navigation ul li{
+	padding: 10px;
+	line-height: 100%;
+	font-size: 20px;
+	list-style: none;
+}
+li:hover{
+	background-color: white;
+}
+.navigation img{
+	border-radius: 100px;
+	border: 1px solid black;
+}
+.ssbss{
+	display: flex;
+	flex-direction: row-reverse;
+}
+.ssbss h3{
+	margin-left: 10px;
+}
+.shreesir{
+	width: 15%;
+	position: absolute;
+	padding: 20px;
+	right: 0px;
+	background-color: white;
+}
+.shreesir img{
+	height: 200px;
+	width: 200px;
+	box-shadow: 5px 5px 10px;
+	border-radius: 100%;
+}
+.shreesir p{
+	text-align: justify;
+	font-family: cursive;
+}
+.page_title{
+	color: black;
+	font-family: cursive;
+	font-size: 40px;
+	position: absolute;
+	top: 30%;
+	right: 25%;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.footer{
+	background-color: white;
+	padding: 10px;
+	width: 100%;
+	position: absolute;
+	bottom: -150px;
+	border: 1px solid black;
+}
+.gallery{
+	height: 200px;
+	width: 200px;
+	border: 1px solid black;
+	margin: 10px;
+}
